@@ -15,9 +15,12 @@ const LocationButton = ({ latitude, longitude, placeName }) => {
     };
 
     return (
+        <div>
         <button onClick={handleRedirect}>
             Open in Google Maps
         </button>
+        <h1>Hiii</h1>
+        </div>
     );
 };
 
